@@ -1,0 +1,41 @@
+作者andy199113 (Andy)看板Gossiping標題Re: [問卦] 爆氣！有沒有 youtube-dl 被下架的八卦？時間Sun Nov  1 02:41:33 2020
+※ 引述《kuro (垃圾不分藍綠)》之銘言：
+: 下了 youtube-dl.exe -U 指令之後竟然出現錯誤訊息
+: ERROR: can't find the current version. Please try again later.
+: 然後到 github 看了一下
+: 靠北勒  被下架了  被下架了  被下架了
+: Repository unavailable due to DMCA takedown.
+
+今天發現不能下載了，才知道這非常遺憾的消息，
+
+youtube-dl這可能是github更新頻率和使用量算是很高的程式了
+
+絕大多數的youtube下載軟體，很可能核心都使用youtube-dl
+
+相當可惜他無法再更新了，眾多網友和維護者的討論也全部消失
+
+
+還好網路力量大，有新的分支繼續傳承這個好程式
+
+https://github.com/blackjack4494/yt-dlc
+新的youtube下載解析，由abayochocoball分享
+https://tinyurl.com/yxgcvfzc
+替換Python\Lib\site-packages\youtube_dl\extractor\youtube.py
+
+原始討論
+https://github.com/blackjack4494/yt-dlc/issues/56#issuecomment-719344407
+https://github.com/blackjack4494/yt-dlc/pull/68
+
+
+
+換完就能繼續正常使用
+
+
+
+---split---
+推: 2
+噓: 0
+分數: 2
+作者: andy199113 (Andy)
+標題: Re: [問卦] 爆氣！有沒有 youtube-dl 被下架的八卦？
+時間: Sun Nov  1 02:41:33 2020
